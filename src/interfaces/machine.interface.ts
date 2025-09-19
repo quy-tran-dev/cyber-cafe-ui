@@ -19,5 +19,6 @@ export interface IMachineUpdateModePayload {
     | "multi_task"
     | "high_graphics"
     | "crash";
+  game_mode: "non-play" | "moba" | "fps" | "aaa";
   user_id?: string;
 }
